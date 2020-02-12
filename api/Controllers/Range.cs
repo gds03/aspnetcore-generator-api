@@ -7,6 +7,7 @@ namespace api.Controllers
 {
     public class Range
     {
+        // just make it push
         public int Count { get; set; } = 10;
         public bool Sort { get; set; } = false;
 
