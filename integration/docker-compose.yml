@@ -11,6 +11,6 @@ services:
     #ports:
     #  - "8025:8025"
   integration:
-    image: my-registry:55000/gen:integration-${GENERATOR_BUILD_NUMBER-BUILD_NUMBER-1}
+    image: my-registry:55000/gen:integration-${GENERATOR_BUILD_NUMBER}-${BUILD_NUMBER-1}
     build: . 
   
